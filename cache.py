@@ -18,3 +18,5 @@ def cache_search(self, address):
             return self.cache[i][1]
     return None 
 
+def write_cache(self, address, value):
+    self.cache.appent(tuple(address, value))
